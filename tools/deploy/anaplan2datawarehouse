@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+APP=anaplan2datawarehouse
+DEPLOYMENT_NAME=anaplan2datawarehouse
+export ENV=prod
+
+# secrets
+export S3ACCESSKEY=$(cat secrets/$DEPLOYMENT_NAME/S3ACCESSKEY)
+export S3SECRETKEY=$(cat secrets/$DEPLOYMENT_NAME/S3SECRETKEY)
