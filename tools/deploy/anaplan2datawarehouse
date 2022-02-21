@@ -2,7 +2,7 @@
 
 APP=anaplan2datawarehouse
 DEPLOYMENT_NAME=anaplan2datawarehouse
-export ENV=prod
+export  ENV=prod
 
 # secrets
 export S3ACCESSKEY=$(cat secrets/$DEPLOYMENT_NAME/S3ACCESSKEY)
